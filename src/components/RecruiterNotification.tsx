@@ -50,7 +50,7 @@ export function RecruiterNotification() {
             
             <a 
               href="#contact" 
-              onClick={(e) => {
+              onClick={() => {
                 // If they click contact, we can also dismiss the notification
                 setIsVisible(false);
                 setTimeout(() => setHasDismissed(true), 300);
