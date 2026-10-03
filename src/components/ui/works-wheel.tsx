@@ -286,9 +286,9 @@ export function WorksWheel({
                   }}
                   className="group absolute [backface-visibility:hidden]"
                   style={{
-                    width: metrics.cardW,
+                    width: item.contain ? metrics.cardH * 0.707 : metrics.cardW,
                     height: metrics.cardH,
-                    marginLeft: -metrics.cardW / 2,
+                    marginLeft: -(item.contain ? metrics.cardH * 0.707 : metrics.cardW) / 2,
                     marginTop: -metrics.cardH / 2,
                   }}
                 >
@@ -297,7 +297,7 @@ export function WorksWheel({
                       src={item.image}
                       alt={item.title}
                       draggable={false}
-                      className={cn("size-full", item.contain ? "object-contain bg-black" : "object-cover")}
+                      className={cn("size-full", item.contain ? "object-cover bg-black" : "object-cover")}
                     />
                     {action && item.href ? (
                       <span className="bg-[#0C0C0C]/80 text-[#D7E2EA] pointer-events-none absolute right-3 bottom-3 flex translate-y-1 items-center gap-1 rounded-full px-2.5 py-1 text-[0.7rem] opacity-0 backdrop-blur-sm transition group-hover:translate-y-0 group-hover:opacity-100">

@@ -5,7 +5,7 @@ import { FadeIn } from './components/FadeIn';
 import { Magnet } from './components/Magnet';
 import { HoverLinkPreview } from './components/ui/hover-link-preview';
 import { CertificatesSection } from './components/sections/certificates-section';
-
+import { RecruiterNotification } from './components/RecruiterNotification';
 const restaurantClients = [
   {
     name: "Anjushree",
@@ -470,6 +470,8 @@ function App() {
           Alok Khamora — Engineer - Builder - Entrepreneur
         </div>
       </section>
+      
+      <RecruiterNotification />
     </div>
   );
 }

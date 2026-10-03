@@ -4,25 +4,35 @@ export type CertificateItem = WorksWheelItem
 
 export const certificates: CertificateItem[] = [
   {
-    title: "IIT Madras Paradox'26 RopeWalker Event Head",
-    image: "/certificates/01_iit_madras_paradox_2026_ropewalker_event_head_certificate.jpg",
-    href: "/certificates/01_iit_madras_paradox_2026_ropewalker_event_head_certificate.jpg",
-  },
-  {
-    title: "IIT Madras Paradox'26 Autonomous Agents Workshop",
-    image: "/certificates/02_iit_madras_paradox_2026_autonomous_agents_workshop_certificate.jpg",
-    href: "/certificates/02_iit_madras_paradox_2026_autonomous_agents_workshop_certificate.jpg",
-  },
-  {
     title: "NIT Kurukshetra Summer Research Internship",
     image: "/certificates/03_NIT_Kurukshetra_Summer_Research_Internship_2026.jpeg",
     href: "/certificates/03_NIT_Kurukshetra_Summer_Research_Internship_2026.jpeg",
     contain: true,
   },
   {
+    title: "IIT Bombay Eureka 2024 Top 600 Zonalist",
+    image: "/certificates/07_iit_bombay_eureka_2024_top_600_zonalist_certificate.jpg",
+    href: "/certificates/07_iit_bombay_eureka_2024_top_600_zonalist_certificate.jpg",
+  },
+  {
+    title: "IIT Madras Paradox'26 RopeWalker Event Head",
+    image: "/certificates/01_iit_madras_paradox_2026_ropewalker_event_head_certificate.jpg",
+    href: "/certificates/01_iit_madras_paradox_2026_ropewalker_event_head_certificate.jpg",
+  },
+  {
+    title: "IYIIC 2021 Selected for National Challenge",
+    image: "/certificates/11_iyiic_2021_selected_for_national_challenge_certificate.jpg",
+    href: "/certificates/11_iyiic_2021_selected_for_national_challenge_certificate.jpg",
+  },
+  {
     title: "IIT Guwahati UDGAM 2026 Startup Expo",
     image: "/certificates/04_iit_guwahati_udgam_2026_zaaykatech_startup_expo.jpg",
     href: "/certificates/04_iit_guwahati_udgam_2026_zaaykatech_startup_expo.jpg",
+  },
+  {
+    title: "IIT Madras Paradox'26 Autonomous Agents Workshop",
+    image: "/certificates/02_iit_madras_paradox_2026_autonomous_agents_workshop_certificate.jpg",
+    href: "/certificates/02_iit_madras_paradox_2026_autonomous_agents_workshop_certificate.jpg",
   },
   {
     title: "IIT Madras Paradox'26 Risk Communication Workshop",
@@ -33,11 +43,6 @@ export const certificates: CertificateItem[] = [
     title: "IIT Indore FLUXUS 2025 Campus Ambassador",
     image: "/certificates/06_iit_indore_fluxus_2025_campus_ambassador_certificate.jpg",
     href: "/certificates/06_iit_indore_fluxus_2025_campus_ambassador_certificate.jpg",
-  },
-  {
-    title: "IIT Bombay Eureka 2024 Top 600 Zonalist",
-    image: "/certificates/07_iit_bombay_eureka_2024_top_600_zonalist_certificate.jpg",
-    href: "/certificates/07_iit_bombay_eureka_2024_top_600_zonalist_certificate.jpg",
   },
   {
     title: "Hackeclipse 2025 Certificate of Excellence",
@@ -53,11 +58,6 @@ export const certificates: CertificateItem[] = [
     title: "IIT Madras Bytebash 2025 Participation",
     image: "/certificates/10_iit_madras_bytebash_2025_participation_certificate.jpg",
     href: "/certificates/10_iit_madras_bytebash_2025_participation_certificate.jpg",
-  },
-  {
-    title: "IYIIC 2021 Selected for National Challenge",
-    image: "/certificates/11_iyiic_2021_selected_for_national_challenge_certificate.jpg",
-    href: "/certificates/11_iyiic_2021_selected_for_national_challenge_certificate.jpg",
   },
   {
     title: "NCSC 2020 MP State Level Junior Child Scientist",
