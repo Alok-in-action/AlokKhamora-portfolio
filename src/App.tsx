@@ -141,7 +141,7 @@ function App() {
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col relative px-6 md:px-10">
         <nav className="flex flex-col sm:flex-row justify-between items-center pt-6 md:pt-8 w-full z-10 gap-4 sm:gap-0">
-          <div className="font-bold text-xl uppercase tracking-wider">AK</div>
+          <div className="font-bold text-xl uppercase tracking-wider">Alok Khamora</div>
           <div className="flex gap-4 sm:gap-6 md:gap-10 text-xs sm:text-sm md:text-lg lg:text-[1.4rem] font-medium uppercase tracking-wider">
             {['About', 'Work', 'Experience', 'Contact'].map((item) => (
               <a key={item} href={`#${item.toLowerCase()}`} className="hover:opacity-70 transition duration-200">
@@ -176,13 +176,13 @@ function App() {
           
           <div className="mt-12 flex flex-col sm:flex-row gap-6 sm:gap-12">
             {[
-              { val: "10+", label: "Restaurants onboarded" },
-              { val: "₹50K+", label: "Annual venture revenue" },
-              { val: "500+", label: "Event registrations" }
+              { val: "10+", label: "Restaurants onboarded through ZaayKaTech - Startup" },
+              { val: "₹50K+", label: "Annual Recurring revenue through ZaayKaTech Startup" },
+              { val: "500+", label: "Registrations managed as Event Head at IIT Madras" }
             ].map((stat, i) => (
               <FadeIn key={i} delay={0.5 + (i * 0.1)} className="border-l border-borderColor pl-4 hover:border-accentPurple transition-colors">
                 <div className="font-bold text-2xl">{stat.val}</div>
-                <div className="text-sm text-mutedText uppercase tracking-wider">{stat.label}</div>
+                <div className="text-xs sm:text-sm text-mutedText uppercase tracking-wider mt-1">{stat.label}</div>
               </FadeIn>
             ))}
           </div>

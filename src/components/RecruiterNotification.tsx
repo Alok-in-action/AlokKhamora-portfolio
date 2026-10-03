@@ -27,7 +27,7 @@ export function RecruiterNotification() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 20, scale: 0.95 }}
           transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-          className="fixed bottom-6 right-6 sm:bottom-10 sm:right-10 z-[100] max-w-sm"
+          className="fixed bottom-4 left-4 right-4 sm:left-auto sm:bottom-10 sm:right-10 z-[100] sm:max-w-sm"
         >
           <div className="bg-[#16181C] border border-[#D7E2EA]/20 shadow-2xl rounded-2xl p-5 sm:p-6 text-[#D7E2EA] relative overflow-hidden backdrop-blur-md">
             {/* Subtle gradient background effect */}
